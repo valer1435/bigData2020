@@ -1,0 +1,73 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.0 (JetBrains s.r.o Java 11.0.3)
+[debug] Load.defaultLoad until apply took 431.7709ms
+[debug]           Load.loadUnit: plugins took 121.592ms
+[debug]           Load.loadUnit: defsScala took 0.4784ms
+[debug] [Loading] Scanning directory E:\Programming\JavaProjects\pokrovsky_homework\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in E:\Programming\JavaProjects\pokrovsky_homework\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 30.6993 ms
+[debug]               Load.resolveProject(pokrovsky_homework-build) took 52.0074ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id pokrovsky_homework-build, base: E:\Programming\JavaProjects\pokrovsky_homework\project, plugins: List(<none>))) took 112.7736ms
+[debug] [Loading] Done in E:\Programming\JavaProjects\pokrovsky_homework\project, returning: (pokrovsky_homework-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 141.6266ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.94ms
+[debug]         Load.loadUnit(file:/E:/Programming/JavaProjects/pokrovsky_homework/project/, ...) took 272.7077ms
+[debug]       Load.apply: load took 499.3806ms
+[debug]       Load.apply: resolveProjects took 6.6637ms
+[debug]       Load.apply: finalTransforms took 67.4325ms
+[debug]       Load.apply: config.delegates took 8.2804ms
+[debug]       Load.apply: Def.make(settings)... took 781.2126ms
+[debug]       Load.apply: structureIndex took 103.121ms
+[debug]       Load.apply: mkStreams took 1.9803ms
+[info] loading project definition from E:\Programming\JavaProjects\pokrovsky_homework\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 2466.8765ms
+[debug]     Load.loadUnit: defsScala took 0.009ms
+[debug] [Loading] Scanning directory E:\Programming\JavaProjects\pokrovsky_homework
+[debug]       Load.loadUnit: mkEval took 6.4232ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in E:\Programming\JavaProjects\pokrovsky_homework, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.6116 ms
+[info] loading settings for project pokrovsky_homework from build.sbt ...
+[debug]         Load.resolveProject(pokrovsky_homework) took 2.4034ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id pokrovsky_homework, base: E:\Programming\JavaProjects\pokrovsky_homework, plugins: List(<none>))) took 4.6461ms
+[debug] [Loading] Done in E:\Programming\JavaProjects\pokrovsky_homework, returning: (pokrovsky_homework)
+[debug]     Load.loadUnit: loadedProjectsRaw took 2517.4016ms
+[debug]     Load.loadUnit: cleanEvalClasses took 8.6265ms
+[debug]   Load.loadUnit(file:/E:/Programming/JavaProjects/pokrovsky_homework/, ...) took 4994.6004ms
+[debug] Load.apply: load took 5024.7765ms
+[debug] Load.apply: resolveProjects took 0.1122ms
+[debug] Load.apply: finalTransforms took 10.5867ms
+[debug] Load.apply: config.delegates took 0.5048ms
+[debug] Load.apply: Def.make(settings)... took 117.1427ms
+[debug] Load.apply: structureIndex took 31.1877ms
+[debug] Load.apply: mkStreams took 0.0028ms
+[info] set current project to pokrovsky_homework (in build file:/E:/Programming/JavaProjects/pokrovsky_homework/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] 
+[info] Here are some highlights of this release:
+[info]   - Build server protocol (BSP) support
+[info]   - sbtn: a native thin client for sbt
+[info]   - VirtualFile + RemoteCache: caches build artifacts across different machines
+[info]   - ThisBuild / versionScheme to take the guessing out of eviction warning
+[info] See http://eed3si9n.com/sbt-1.4.0 for full release notes.
+[info] Hide the banner for this release by running `skipBanner`.
+[info] sbt server started at local:sbt-server-5ca28b2ae55e9d126d39
