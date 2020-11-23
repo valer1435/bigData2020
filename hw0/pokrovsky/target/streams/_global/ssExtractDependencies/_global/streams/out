@@ -1,8 +1,8 @@
-[error] sbt.librarymanagement.ResolveException: Error downloading com.github.davidallsopp:geohash_2.11:0.5
+[error] sbt.librarymanagement.ResolveException: Error downloading com.github.mpeltonen:sbt-idea;sbtVersion=1.0;scalaVersion=2.11:1.5.2
 [error]   Not found
 [error]   Not found
-[error]   not found: C:\Users\Valery\.ivy2\local\com.github.davidallsopp\geohash_2.11\0.5\ivys\ivy.xml
-[error]   not found: https://repo1.maven.org/maven2/com/github/davidallsopp/geohash_2.11/0.5/geohash_2.11-0.5.pom
+[error]   not found: C:\Users\Valery\.ivy2\local\com.github.mpeltonen\sbt-idea\scala_2.11\sbt_1.0\1.5.2\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/github/mpeltonen/sbt-idea_2.11_1.0/1.5.2/sbt-idea-1.5.2.pom
 [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:258)
 [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:227)
 [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
@@ -27,14 +27,14 @@
 [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
 [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
 [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
-[error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-[error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-[error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-[error] 	at java.base/java.lang.Thread.run(Thread.java:834)
-[error] (ssExtractDependencies) sbt.librarymanagement.ResolveException: Error downloading com.github.davidallsopp:geohash_2.11:0.5
+[error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[error] 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[error] 	at java.lang.Thread.run(Thread.java:748)
+[error] (ssExtractDependencies) sbt.librarymanagement.ResolveException: Error downloading com.github.mpeltonen:sbt-idea;sbtVersion=1.0;scalaVersion=2.11:1.5.2
 [error]   Not found
 [error]   Not found
-[error]   not found: C:\Users\Valery\.ivy2\local\com.github.davidallsopp\geohash_2.11\0.5\ivys\ivy.xml
-[error]   not found: https://repo1.maven.org/maven2/com/github/davidallsopp/geohash_2.11/0.5/geohash_2.11-0.5.pom
+[error]   not found: C:\Users\Valery\.ivy2\local\com.github.mpeltonen\sbt-idea\scala_2.11\sbt_1.0\1.5.2\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/github/mpeltonen/sbt-idea_2.11_1.0/1.5.2/sbt-idea-1.5.2.pom

@@ -1,4 +1,4 @@
 [debug] not up to date. inChanged = true, force = false
-[debug] Updating ProjectRef(uri("file:/E:/Programming/JavaProjects/pokrovsky_homework/"), "pokrovsky_homework")...
-[debug] Done updating ProjectRef(uri("file:/E:/Programming/JavaProjects/pokrovsky_homework/"), "pokrovsky_homework")
+[debug] Updating ProjectRef(uri("file:/E:/Programming/JavaProjects/pokrovsky_homework/bigData2020/hw0/pokrovsky/"), "pokrovsky")...
+[debug] Done updating ProjectRef(uri("file:/E:/Programming/JavaProjects/pokrovsky_homework/bigData2020/hw0/pokrovsky/"), "pokrovsky")
 [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
